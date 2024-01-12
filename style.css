@@ -61,7 +61,7 @@ body{
     flex-wrap: wrap;
     overflow: hidden;
     /* gap: 3rem; for tab responsive */
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header {
@@ -348,8 +348,9 @@ body{
         position: static;
         width: 100%;
         font-size: 2rem;
-        color: #ffd700;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+
     }
 
     .text-content {
@@ -392,15 +393,15 @@ body{
 
 
 #experience {
-    background:#6385ce;
-    background-color: #35415c;
+    /* background:#6385ce;
+    background-color: #35415c; */
     background: url("./Images/Satelitte\ background\ image.PNG");
     background-size: cover;
     background-attachment: fixed;
 
     padding: 5rem 10%;
     color: #fff;
-    /* height: auto; */
+    height: auto;
     overflow: hidden;
 }
 
@@ -411,11 +412,11 @@ body{
 }
 
 #experience h2 {
-    position: relative;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: white;
+
 }
 
 .card-1,
@@ -429,9 +430,12 @@ body{
 .card-3-front {
     width: 300px;
     height: 480px;
-    background-color: rgb(38, 38, 46);
+    background-color: rgb(34, 38, 43);
     text-align: center;
-    /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1.2rem;
 
 }
 
@@ -440,6 +444,7 @@ body{
 .card-3-front img {
     width: 300px;
     height: 200px;
+    background-color: black;
 }
 
 .position-title p {
@@ -467,7 +472,7 @@ body{
 
 .circle-down-1,.circle-down-2,.circle-down-3{
     display: inline-block;
-    margin-bottom: 0.5rem;
+    margin: 1rem;
 }
 
 .circle-up-1 .fa-solid,
@@ -478,13 +483,8 @@ body{
 .circle-down-3 .fa-solid{
     cursor: pointer;
     font-size: 2rem;
-    color: #5b73a0;
+    color: white;
 }
-
-
-
-
-
 
 
 /* *********** */
@@ -496,14 +496,18 @@ body{
     width: 300px;
     height: 480px;
     background-color: rgb(62, 62, 75);
-    padding: 0 20px;
+    background-color: rgb(34, 38, 43);
+
+    border-radius: 10px;
+    padding: 30px;
     /* transform: translateY(-80px); */
-    transition: all 1s;
+    transition: all 700ms;
+
     margin-top: 5rem;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     /* justify-content:flex-end; */
     align-items: center;
 }
@@ -526,21 +530,6 @@ body{
     line-height: 1.2;
     margin-bottom: 20px;
 }
-
-.card-1-back p:first-child,
-.card-2-back p:first-child,
-.card-3-back p:first-child {
-    padding-top: 10px;
-}
-
-/* .test {
-    position: relative;
-    background-color: #393E46;
-    width: 80vw;
-    height: 400px;
-} */
-
-
 
 
 
@@ -575,14 +564,17 @@ body{
     .card-2-back,
     .card-3-back {
         width: auto;
-        /* height: 450px; */
+        height: 480px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        transform: translateY(-32px);
+
+
+
     }
 
     .card-1-back-js {
-        transform: translateY(-100%);
+        transform: translateY(-560px);
     }
     
     
@@ -598,12 +590,12 @@ body{
         padding-top: auto;
     }
     
-    .test {
+    /* .test {
         position: relative;
         background-color: #393E46;
         width: auto;
         height: auto;
-    }
+    } */
 
 
 }
@@ -619,7 +611,8 @@ body{
 
 .projects h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -690,7 +683,7 @@ body{
 
 #footer h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 
 }
