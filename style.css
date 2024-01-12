@@ -620,7 +620,6 @@ body{
 .projects h2 {
     text-align: center;
     font-size: 3rem;
-    color: #FFD700;
 }
 
 
@@ -692,7 +691,6 @@ body{
 #footer h2 {
     text-align: center;
     font-size: 3rem;
-    color: #FFD700;
     margin-bottom: 2rem;
 
 }
@@ -707,7 +705,7 @@ body{
 }
 
 .social-links i {
-    color: #FFD700;
+    color: white;
     font-size: 3rem;
     cursor: pointer;
     
@@ -723,7 +721,7 @@ body{
 
 .footer-links>a {
     text-decoration: none;
-    color: #FFD700;
+    color: white;
 
 }
 
@@ -734,7 +732,6 @@ body{
 
 .copyright {
     text-align: center;
-    color: #FFD700;
     font-size: 1.6rem;
 }
 
