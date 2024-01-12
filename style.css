@@ -252,9 +252,12 @@ body{
 
     .button-container {
         margin-top: 2rem;
-        justify-content: center;
-        padding: 5%;
+        justify-content: space-between;
 
+    }
+
+    .button-cv{
+        margin-right: 1rem;
     }
 
     .button {
@@ -263,6 +266,7 @@ body{
         width: 100%;
         background-color: #2b3856;
         border: 1px solid #2b3856;
+        color: white;
     }
 
     .button:hover {
