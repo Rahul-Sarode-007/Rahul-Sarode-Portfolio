@@ -49,6 +49,8 @@ body {
     color: #b6c2e8;
 }
 
+
+
 .hero-section {
     padding: 8rem 10% 5%;
     background: linear-gradient(to bottom, #0e46a2, #6b99f1);
@@ -668,6 +670,11 @@ body {
     height: 200px;
     width: 100%;
 
+}
+
+.project a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Tablet Responsive */
